@@ -21,7 +21,7 @@
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzdrh0begC9loVkWJGKATiLLQH_o-3N8I&callback=initMap&v=weekly"
+	    src="https://maps.googleapis.com/maps/api/js?key={{key}}&callback=initMap&v=weekly"
       async
     ></script>
     <script src="{{ url_for('static', filename='index.js') }}"></script>
